@@ -366,8 +366,8 @@
 								<form action="placeorder">
 								
 									<div class="col-xs-3">
-										<button type="submit" class="btn btn-success btn-block">
-											Checkout</button>
+										  <a href="checkoutFlow" type="submit" class="btn btn-success btn-block">
+											Checkout</a>
 									</div>
 									
 								</form>

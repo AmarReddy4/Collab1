@@ -354,10 +354,13 @@ li {
 		</c:when>
 	</c:choose>
 	
-	
-<!--  <div class="container-fluid">
+	<c:if test="${empty HideOthers}">
+
+		<c:choose>
+			<c:when test="${!Administrator}">
+ <div class="container-fluid">
 <div id="myCarousel" class="carousel slide" data-ride="carousel" align="center">
-    Indicators
+   <!--  Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -366,7 +369,7 @@ li {
       <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
-    Wrapper for slides
+    <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="http://proconsolerepair2dfw.com/wp-content/uploads/slider1.jpg" width="1900" height="400" alt="style">
@@ -389,7 +392,7 @@ li {
       </div>
     </div>
 
-    Left and right controls
+    <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -399,7 +402,8 @@ li {
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div> -->
+</div> 
+</c:when></c:choose></c:if>
 
 	<!-- Corousel End -->
 
