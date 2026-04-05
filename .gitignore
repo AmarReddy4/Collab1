@@ -1,0 +1,18 @@
+# Build output
+target/
+*.class
+*.jar
+*.war
+
+# IDE - Eclipse
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+
+# Node
+node_modules/
